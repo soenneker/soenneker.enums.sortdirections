@@ -8,6 +8,6 @@ namespace Soenneker.Enums.SortDirections;
 [Intellenum<string>]
 public sealed partial class SortDirection
 {
-    public static readonly SortDirection Asc = new(nameof(Asc));
-    public static readonly SortDirection Desc = new(nameof(Desc));
+    public static readonly SortDirection Asc = new("asc");
+    public static readonly SortDirection Desc = new("desc");
 }
