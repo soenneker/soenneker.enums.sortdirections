@@ -1,4 +1,4 @@
-﻿using Intellenum;
+using Soenneker.Gen.EnumValues;
 using Soenneker.Attributes.PublicOpenApiObject;
 
 namespace Soenneker.Enums.SortDirections;
@@ -7,7 +7,7 @@ namespace Soenneker.Enums.SortDirections;
 /// An enumerator for sort direction during querying
 /// </summary>
 [PublicOpenApiObject]
-[Intellenum<string>]
+[EnumValue<string>]
 public sealed partial class SortDirection
 {
     public static readonly SortDirection Asc = new("asc");
