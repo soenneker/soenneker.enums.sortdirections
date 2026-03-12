@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Enums.SortDirections.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Enums.SortDirections\Soenneker.Enums.SortDirections.csproj" />
     </ItemGroup>
 
     <ItemGroup>
