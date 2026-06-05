@@ -10,6 +10,12 @@ namespace Soenneker.Enums.SortDirections;
 [EnumValue<string>]
 public sealed partial class SortDirection
 {
+    /// <summary>
+    /// The asc.
+    /// </summary>
     public static readonly SortDirection Asc = new("asc");
+    /// <summary>
+    /// The desc.
+    /// </summary>
     public static readonly SortDirection Desc = new("desc");
 }
